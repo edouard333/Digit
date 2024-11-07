@@ -4,7 +4,7 @@
     <groupId>com.phenix</groupId>
     <artifactId>digit</artifactId>
     <name>Digit</name>
-    <version>0.3.1</version>
+    <version>0.3.2</version>
     <packaging>jar</packaging>
     <url>https://github.com/edouard333/Digit</url>
     
@@ -65,9 +65,5 @@
         <maven.compiler.target>17</maven.compiler.target>
         <!-- Type d'application : "graphic", "console" ou "library". -->
         <appType>library</appType>
-        <!-- Nom de l'application. -->
-        <appTitle>Digit</appTitle>
-        <!-- Pour l'instant comme ça pour indiquer la version. -->
-        <appVersion>${project.version}</appVersion>
     </properties>
 </project>
