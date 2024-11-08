@@ -3,6 +3,6 @@
  */
 module com.phenix.digit {
     requires jakarta.validation;
-    
+
     exports com.phenix.digit;
 }
