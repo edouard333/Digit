@@ -4,7 +4,7 @@
     <groupId>com.phenix</groupId>
     <artifactId>digit</artifactId>
     <name>Digit</name>
-    <version>0.3.2</version>
+    <version>0.3.3</version>
     <packaging>jar</packaging>
     <url>https://github.com/edouard333/Digit</url>
     
@@ -37,7 +37,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.11.1</version>
+                <version>3.11.2</version>
                 <executions>
                     <execution>
                         <id>attach-javadoc</id>

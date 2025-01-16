@@ -26,7 +26,7 @@ public final class Digit {
      */
     @NotNull
     public static String getDigit(byte nombre) {
-        return (nombre > 10) ? "" + nombre : "0" + nombre;
+        return nombre >= 10 ? "" + nombre : "0" + nombre;
     }
 
     /**
@@ -37,7 +37,7 @@ public final class Digit {
      */
     @NotNull
     public static String getDigit(int nombre) {
-        return nombre > 10 ? "" + nombre : "0" + nombre;
+        return nombre >= 10 ? "" + nombre : "0" + nombre;
     }
 
     /**
