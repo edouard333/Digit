@@ -1,5 +1,6 @@
 package com.phenix.digit;
 
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 /**
@@ -25,6 +26,7 @@ public final class Digit {
      * @return Nombre sur deux digits.
      */
     @NotNull
+    @NotBlank
     public static String getDigit(byte nombre) {
         return nombre >= 10 ? "" + nombre : "0" + nombre;
     }
@@ -36,6 +38,7 @@ public final class Digit {
      * @return Nombre sur deux digits.
      */
     @NotNull
+    @NotBlank
     public static String getDigit(int nombre) {
         return nombre >= 10 ? "" + nombre : "0" + nombre;
     }
@@ -47,6 +50,7 @@ public final class Digit {
      * @return Le nombre en 3 chiffres.
      */
     @NotNull
+    @NotBlank
     public static String getDigit3(int valeur) {
         if (valeur < 10) {
             return "00" + valeur;
@@ -66,6 +70,7 @@ public final class Digit {
      * @return Le nombre adapté.
      */
     @NotNull
+    @NotBlank
     public static String getDigit(int nombre, int nb_digit) {
         String digit = "";
 
