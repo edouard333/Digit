@@ -11,9 +11,9 @@ import jakarta.validation.constraints.NotNull;
 public final class Digit {
 
     /**
-     * Pour empêcher d'instancier la classe.
+     * Pour empêcher d'instancier cette classe.
      *
-     * @throws Exception
+     * @throws Exception On ne peut pas instancier cette classe.
      */
     private Digit() throws Exception {
         throw new Exception("Cette classe ne peut pas être instanciée.");
