@@ -66,17 +66,17 @@ public final class Digit {
      * Retourne un nombre sur un certain nombre de digits.
      *
      * @param nombre Le nombre à traiter.
-     * @param nb_digit Le nombre de digits.
+     * @param nbDigit Le nombre de digits.
      * @return Le nombre adapté.
      */
     @NotNull
     @NotBlank
-    public static String getDigit(int nombre, int nb_digit) {
+    public static String getDigit(int nombre, int nbDigit) {
         String digit = "";
 
         int cara = ("" + nombre).length();
 
-        for (int i = 0; i < (nb_digit - cara); i++) {
+        for (int i = 0; i < (nbDigit - cara); i++) {
             digit += "0";
         }
 
