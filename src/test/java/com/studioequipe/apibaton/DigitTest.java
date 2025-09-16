@@ -9,14 +9,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * Tests de la classe {@link APIBaton}.
+ * Tests de la classe {@link Digit}.
  *
  * @author <a href="mailto:edouard128@hotmail.com">Edouard Jeanjean</a>
  */
 public final class DigitTest {
 
     /**
-     * Début des tests.
+     * Lance les tests.
      */
     public DigitTest() {
     }
