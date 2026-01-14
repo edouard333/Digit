@@ -2,12 +2,19 @@
 Librairie qui gère des traitements sur les digits.
 
 # Comment l'utiliser ?
-Utiliser la classe [`com.phenix.digit.Digit`](src/main/java/com/phenix/apibaton/Digit.java).
+Utiliser la classe :
 ```java
-// Retourne un String sur 2 digits :
-byte b = 6;
-Digit.getDigit(b);
-...
+import com.phenix.digit.Digit;
 ```
 
-Pour plus d'information, consulter la **[JavaDoc du projet](target/site/apidocs/index.html)**.
+Exemple :
+```java
+import com.phenix.digit.Digit;
+
+void main(String[] args) {
+    // Retourne un String sur 2 digits :
+    byte b = 6;
+    String nombre = Digit.getDigit(b);
+    // ...
+}
+```
